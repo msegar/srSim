@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ************************************
 srSim
 ************************************
@@ -19,13 +18,14 @@ assemblers.
 
 Installation
 ----
->>>>>>> ac06d9c3ab6207161a943287e1097c0788eb14cb
 
 Use the included config.txt file to customize. Compile using the included 
 Makefile. Then run using:
 
-<<<<<<< HEAD
+=======
+```bash
 ./srSim config.txt
+```
 
 # CONFIGURATION
 genomeLength		the length of the genome to simulate in nucleotides
@@ -46,6 +46,7 @@ reverseComplement	do you want ~50% of the reads to be reverse complimented?
 
 Configuration File
 ----
+    verbose        Print detailed runtime information
     genomeLength        Length of the genome to simulate in nucleotides
     genome              Genome name to create reads. If the filename exists, a genome will not be created
     avgRead             Average length for 454 pyrosequencing is 533
@@ -63,4 +64,3 @@ Version
 ----
 
 0.1
->>>>>>> ac06d9c3ab6207161a943287e1097c0788eb14cb
