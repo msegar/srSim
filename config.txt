@@ -1,0 +1,41 @@
+# The configuration file for srSim
+
+# verbose - print detailed information (true/false)
+verbose=true
+
+# genomeLength - the length of the genome to simulate in nucleotides
+genomeLength=10000000
+
+# genome - the genome name to create reads
+# if the filename exists, a genome will not be created
+#genome=~/research_ccbb/trial3/yeast_reads_genome_bir.fasta
+genome=genome.fasta
+
+# avgRead - the average read length in nucleotides
+# the average length for 454 pyrosequencing is 533
+avgRead=50
+
+# coverage - the coverage for the data
+coverage=20
+
+# machine - the machine used to sequence the data
+# i.e. 454, illumina
+machine=454
+
+# qvdata - the qv data set to use
+qvdata=454Data.txt
+
+# mutation - can nucleotides be mutated? (true/false)
+mutation=true
+
+# qvScore - the default QV score for non-mutated simulations
+qvScore=40
+
+# printQV - should the program print a QV score?
+printQV=false
+
+# reverseCompliment - do you want ~50% of the reads to be reverse complimented?
+reverseComplement=true
+
+#threads - the number of threads to use (keep < 8)
+threads=2
