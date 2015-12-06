@@ -16,23 +16,6 @@ Makefile. Then run using:
 ./srSim config.txt
 ```
 
-# CONFIGURATION
-genomeLength		the length of the genome to simulate in nucleotides
-genome			the genome name to create reads. If the filename exists, a genome will not be created
-avgRead			the genome name to create reads. The average length for 454 pyrosequencing is 533
-coverage		the coverage for the data
-machine			the machine used to sequence the data (454, illumina)
-qvdata			the qv data set filename to use
-mutation		can nucleotides be mutated? (true/false)
-qvScore			the default QV score for non-mutated simulations
-printQV			should the program print a QV score?
-reverseComplement	do you want ~50% of the reads to be reverse complimented?
-
-=======
-```bash
-./srSim config.txt
-```
-
 Configuration File
 ----
     verbose        Print detailed runtime information
