@@ -1,15 +1,4 @@
-************************************
-srSim
-************************************
-
-A short and long read simulator for next-generation sequencing (NGS) data. The 
-read simulator can be used for the development or testing of NGS aligners and 
-assemblers.
-
-# SYNOPSIS
-=======
-srSim
-=========
+# srSim
 
 A short and long read simulator for next-generation sequencing (NGS) data. 
 
